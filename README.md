@@ -29,7 +29,7 @@
 ![自由调色台](./docs/screenshots/customizer-colors.png)
 
 ### 3. 背景壁纸与智能吸色（支持拖拽本地图片 & 壁纸主色自动配对）
-![背景壁纸与智能吸色](./docs/screenshots/customizer-wallpaper.png)
+![背景壁纸与智能吸色](./docs/screenshots/customizer-wallpaper.jpg)
 
 ### 4. GPU 特效着色器与字体排版（光标彗星拖尾 / 极光边框 / 辉光 / CRT + 字号行高）
 ![GPU特效着色器与字体排版](./docs/screenshots/customizer-shaders.png)
