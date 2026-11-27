@@ -1,6 +1,38 @@
-# Ghostty Theme Studio（Ghostty 主题工坊）
+<div align="center">
+
+# Ghostty Theme Studio · Ghostty 主题工坊
 
 > 开箱即用的 **Ghostty 终端可视化主题工坊 + 57 套中文精选配色 + 4 款 GPU 特效着色器 + 自动昼夜切换 + 壁纸智能吸色**，零依赖纯 Node.js 驱动，专为 macOS（支持 macOS 26+ Liquid Glass）深度优化。
+
+<p>
+  <a href="https://linux.do" target="_blank">
+    <img src="https://ld.xh.do/ld-badge.svg" alt="LINUX DO" height="28">
+  </a>
+  <a href="https://linux.do" target="_blank">
+    <img src="https://img.shields.io/badge/LINUX_DO-Community-1E1E20?style=for-the-badge&logo=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fhomarr-labs%2Fdashboard-icons%40main%2Fsvg%2Flinuxdo.svg" alt="LINUX DO Community" height="28">
+  </a>
+  <img src="https://img.shields.io/badge/Ghostty-1.2%2B%20%2F%201.4%2B-6366f1?style=for-the-badge" alt="Ghostty" height="28">
+  <img src="https://img.shields.io/badge/macOS-Liquid%20Glass-0ea5e9?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" height="28">
+  <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT License" height="28">
+</p>
+
+</div>
+
+---
+
+## 效果预览
+
+### 1. 主题画廊总览（57+ 套精选 · 特效着色器 / 液态玻璃 / 自动昼夜 / 收藏）
+![主题画廊总览](./docs/screenshots/gallery.png)
+
+### 2. 自由调色台（实时预览核心色与全 16 色 ANSI 色板）
+![自由调色台](./docs/screenshots/customizer-colors.png)
+
+### 3. 背景壁纸与智能吸色（支持拖拽本地图片 & 壁纸主色自动配对）
+![背景壁纸与智能吸色](./docs/screenshots/customizer-wallpaper.png)
+
+### 4. GPU 特效着色器与字体排版（光标彗星拖尾 / 极光边框 / 辉光 / CRT + 字号行高）
+![GPU特效着色器与字体排版](./docs/screenshots/customizer-shaders.png)
 
 ---
 
@@ -56,6 +88,7 @@ ghostty-theme-studio/
 ├── studio-server.mjs     # 零依赖本地服务（扫描、上传、镜像、校验、应用）
 ├── 启动主题工坊.command   # macOS 双击启动脚本
 ├── 一键切换主题.sh        # 终端编号一键切换脚本
+├── docs/screenshots/     # README 预览截图
 ├── 特效着色器/            # 6 套 GLSL 特效主题
 ├── 自动切换深浅色/        # 9 套随 macOS 自动明暗切换主题
 ├── 磨砂与液态玻璃/        # 6 套 Liquid Glass 与高斯毛玻璃主题
@@ -72,6 +105,12 @@ ghostty-theme-studio/
 - **Ghostty** 1.2+（推荐 **1.4+**，macOS 26+ 支持 `macos-glass-regular` / `macos-glass-clear`）
 - **Node.js** 18+（运行本地主题工坊服务，无需 `npm install`）
 
-## License
+## 社区与开源协议
 
-[MIT](./LICENSE)
+<p>
+  <a href="https://linux.do" target="_blank">
+    <img src="https://ld.xh.do/ld-badge.svg" alt="LINUX DO" height="28">
+  </a>
+</p>
+
+本项目基于 [MIT License](./LICENSE) 开源，欢迎交流分享与 Star ⭐️！
